@@ -1,7 +1,7 @@
 clear
 clc
-ypr1 = load('理论角度.txt');
-ypr2 = load('测量角度.txt');
+ypr1 = load('立刻测量.txt');
+ypr2 = load('等待测量.txt');
 [num,~] = size(ypr1);
 Dangle = [];
 for p=1:num
